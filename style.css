@@ -7,7 +7,7 @@ h1 {
   margin: auto;
 }
 
-#name, #description, #madeBy, #seals, #target, #wireframe, #target {
+#name, #description, #madeBy, #seals, #target, #wireframe, #target, #output {
     text-align: center; 
 }
 
