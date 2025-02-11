@@ -25,63 +25,64 @@ Carly Copley
 
 
 
-  <!-- everything in the grey grid -->
-  <div id="banner">
-    <h1 id="name">
-      <center>🦭TENNIS COURT🦭</center>
-    </h1>
-    <div id="description">
-      <center>This is a bird's eye view of a tennis court.</center>
-    </div>
-    <div id="madeBy">
-      <center>Made by Carly Copley</center>
-    </div>
-    <div id="seals">
-      <center>🦭🦭🦭</center>
-    </div>
-  </div>
+ <!-- 
+CIS376
+Carly Copley
+7 Febrauary 2025
+-->
 
-  <!-- wireframe link -->
-  <div style="text-align: center;">
-    <a id="wireframe" href="https://github.com/carlycopley/devBakerProject/blob/main/devBakerWireframe.jpg?raw=true"
-      target="_blank">
-      Link to my wireframe
-    </a>
-  </div>
+<!-- import the font -->
+<head><style>
+@import url('https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+</style>
+</head>
 
-  <br>
 
-  <!-- show the coordinates of adBox -->
-  <div id="target">
-    <p>
-      <center>Click the button to get the coordinates of adBox.</center>
-    </p>
-    <button onclick="getPoint()">Click me!</button>
-    <p id="output"></p>
-  </div>
+<title>Tennis Court</title>
 
-  <br>
+<!-- everything in the grey grid -->
+<div id="banner">
+  <h1 id="name">🦭TENNIS COURT🦭</h1> 
+  <div id="description">This is a bird's eye view of a tennis court.</div>
+  <div id="madeBy">Made by Carly Copley</div>
+  <div id="seals">🦭🦭🦭</div>
+</div>
 
-  <!-- create tennis court container -->
-  <div id="tennisCourt">
+<!-- wireframe link -->
+<div id="wireframe">
+  <a href="https://github.com/carlycopley/devBakerProject/blob/main/devBakerWireframe.jpg?raw=true" target="_blank">
+    Link to my wireframe
+  </a>
+</div>
+    
+<br>
 
-    <div id="baseRectangleFront">
-      <center>baseFront (draggable)</center>
-    </div>
-
-    <div id="adBox">adBox *click me</div>
-
-    <div id="deuceBox">deuceBox</div>
-
-    <div id="baseRectangleBack">
-      <center>baseBack</center>
-    </div>
-
-    <div id="alleyLeft">alleyLeft</div>
-
-    <div id="alleyRight">alleyRight</div>
-
-  </div>
+<!-- show the coordinates of adBox -->
+<div id="target">
+  <p>Click the button to get the coordinates of adBox.</p>
+  <button onclick="getPoint()">Click me!</button>
+  <p id="output"></p>
+</div>
+    
+<br>
+    
+<!-- create tennis court container -->
+<div id="tennisCourt">
+  
+  <div id="baseRectangleFront">baseFront (draggable)</div> 
+  
+  <div id="adBox">adBox *click me</div> 
+  
+  <div id="deuceBox">deuceBox</div> 
+  
+  <div id="baseRectangleBack">baseBack</div> 
+  
+  <div id="alleyLeft">alleyLeft</div> 
+  
+  <div id="alleyRight">alleyRight</div> 
+  
+</div> 
+    
   <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.1/jquery-ui.min.js'></script>
