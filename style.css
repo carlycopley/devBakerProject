@@ -7,6 +7,10 @@ h1 {
   margin: auto;
 }
 
+#name, #description, #madeBy, #seals, #target, #wireframe, #target {
+    text-align: center; 
+}
+
 #banner {
   width: px; 
   height: 165px;
